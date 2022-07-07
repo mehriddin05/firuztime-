@@ -1,37 +1,40 @@
-@media (max-width: 900px) {
-  .AB-nav-top1 {
-    display: none;
-  }
-  .AB-nav-top {
-    grid-template-columns: 70%;
-    grid-template-rows: auto;
-    justify-content: center;
-  }
-}
-
-
-@media (max-width: 768px) {   
-    .AB-nav-menu .AB-nav-item{
-        display: block;
-
+@media (max-width: 900px){
+  .AB-ourtrust h1 {
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 58.5px;
+      letter-spacing: 0.36px;
+      text-align: center;
+      padding-top: 22px;
+      padding-bottom: 44px;
     }
-    .AB-nav-menu{
-        flex-wrap: wrap;      
-        justify-content: space-evenly; 
-        padding-left: 0; 
+    .AB-spons{
+      width: 49%;
     }
-    .AB-nav-top{
-        grid-template-columns: 100%;
-    }
-    .AB-nav-item{
-        padding-left: 10;
-    }.fbfeature{
+    .AB-customize-work {
+      height: 1352px;
+      background-color: rgb(244, 244, 244);
+      display: flex;
       flex-wrap: wrap;
-      padding: 10px;
-
-    }.firstcell{
-      width: 70%;
-      display: block;
+      width: 88%;
+      justify-content: center;
     }
-
+  .AB-customize-item1 h1{
+      font-size: 35px;
   }
+  .AB-customize-item2 p{
+      width: 50%;
+      margin: auto;
+      text-align: center;
+      padding-left: 100px;
+  }
+  .AB-customize-work2 {
+      display: grid;
+      grid-template-columns: 380px;
+      grid-template-rows: 663px;
+      justify-content: center;
+      align-content: center;
+      padding-right: 200px;
+      margin-bottom: 20px;  
+    }
+}
