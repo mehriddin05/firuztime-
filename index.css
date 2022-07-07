@@ -1,1 +1,326 @@
-/*# sourceMappingURL=index.css.map */
+.Mj-first {
+  display: flex;
+}
+.Mj-first .Mj-colums p {
+  color: white;
+  color: black;
+  font-size: 25px;
+  padding: 18px;
+}
+
+body {
+  margin: 0;
+}
+
+.Mj-right {
+  background-image: url("./image/rabotniki.png");
+  background-repeat: no-repeat;
+  width: 50%;
+  display: grid;
+  padding: 80px;
+  margin-left: 200px;
+  padding-left: 60px;
+  padding-top: 120px;
+}
+
+.Mj-inright {
+  background-color: rgba(28, 39, 82, 0.86);
+  width: 60%;
+  height: 60%;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 20% 20% 20% 20%;
+  gap: 0px;
+}
+
+.Mj-colums {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  padding: 60px;
+  padding-left: 100px;
+}
+
+.Mj-colums {
+  font-family: Mulish;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.3600000143px;
+  text-align: left;
+}
+.Mj-colums .Mj-leftcol p {
+  background: #FFB342;
+}
+.Mj-colums .Mj-rightcol p {
+  background: rgba(28, 39, 82, 0.86);
+  border: 0.2px solid white;
+  border-left: none;
+  color: white;
+}
+
+.Mj-left {
+  margin-top: 100px;
+  margin-left: -300px;
+}
+.Mj-left h1 {
+  margin-top: 0px;
+  font-family: Mulish;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 59px;
+  letter-spacing: 0.3600000143px;
+  text-align: left;
+}
+.Mj-left p {
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.3600000143px;
+  text-align: left;
+}
+
+.Mj-test {
+  display: grid;
+  grid-template-columns: 13% 87%;
+}
+
+.Mj-icons {
+  display: grid;
+  margin-top: 10px;
+}
+.Mj-icons .Mj-alone i {
+  background: #FFB342;
+  border-radius: 100px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#choose {
+  margin: 0px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.3600000143px;
+  text-align: left;
+}
+
+#iconmj {
+  color: #FFB342;
+}
+
+.Mj-second {
+  padding-top: 200px;
+  background-color: #1C2752;
+  width: 100%;
+  margin-top: -300px;
+  height: 100vh;
+  text-align: center;
+  color: white;
+}
+
+.Mj-image {
+  display: grid;
+  grid-template-columns: 18% 18% 18% 18%;
+  gap: 20px;
+  padding-top: 30px;
+  justify-content: center;
+  align-content: center;
+}
+
+.Mj-im {
+  padding-top: 30px;
+  background-color: white;
+  display: grid;
+  justify-content: center;
+  color: black;
+}
+
+.Gallery {
+  margin: auto;
+  background: #F4F4F4;
+  color: black;
+  width: 8%;
+}
+
+.Mj-im h3 {
+  font-family: Mulish;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0.3600000143px;
+  text-align: center;
+  margin: 0;
+}
+.Mj-im p {
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.3600000143px;
+  text-align: center;
+  margin: 0;
+}
+
+.Mj-Nency {
+  margin-left: 200px;
+  width: 50%;
+}
+
+.Nancy {
+  padding-bottom: 30px;
+  padding-left: 20px;
+  width: 120%;
+  border: 1px solid #DDDDDD;
+  display: grid;
+}
+
+.topmj {
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  justify-content: center;
+  align-content: center;
+}
+
+.Mj-name {
+  padding-bottom: 20px;
+  border-bottom: 0.5px solid #DCDCDC;
+  margin-left: 20px;
+}
+.Mj-name h4 {
+  margin: 0;
+  margin-top: 15px;
+  font-family: Mulish;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0.3600000143px;
+  text-align: left;
+}
+.Mj-name h5 {
+  margin: 0;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.3600000143px;
+  text-align: left;
+}
+
+#icn {
+  background: #FFB342;
+  border-radius: 100px;
+  padding: 20px;
+  font-size: 35x;
+}
+
+#mark {
+  background: #F4F4F4;
+  border-radius: 100px;
+  padding: 20px;
+}
+
+#mark:hover {
+  background: #888383;
+}
+
+.topmj a {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.36px;
+  color: #7E7E7E;
+}
+
+.Mj-last {
+  height: 100vh;
+}
+
+.Testimonial {
+  background: #F4F4F4;
+  width: 15%;
+}
+.Testimonial p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.3600000143px;
+  text-align: left;
+}
+
+.Mj-Nency h1 {
+  font-family: Mulish;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 59px;
+  letter-spacing: 0.3600000143px;
+  text-align: left;
+}
+
+#mjim {
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.Mj-ttt h5 {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.36px;
+  color: #7E7E7E;
+}
+
+.Mj-last {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+form {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 60px 60px 60px 60px 130px 60px;
+  gap: 30px;
+  background: #F4F4F4;
+  padding: 30px;
+  width: 50%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+input {
+  width: 450px;
+  padding: 10px;
+}
+
+#Submit {
+  width: 475px;
+  background: #FFB342;
+  border: 2px solid #FFB342;
+}
+
+.rightend {
+  margin-top: 60px;
+}
+.rightend h1 {
+  font-family: Mulish;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 59px;
+  letter-spacing: 0.3600000143px;
+  text-align: left;
+}
+
+#Submit:hover {
+  width: 475px;
+  background: #85827d;
+  border: 2px solid #FFB342;
+}/*# sourceMappingURL=index.css.map */
